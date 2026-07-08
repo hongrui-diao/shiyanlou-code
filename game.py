@@ -53,9 +53,9 @@ if job == "b" or job == "B":
         
 print('You Level is 是{},Attack{},Hp{},Defence{}' .format(level, att, hp,defend))
 print("=========== Fight began ==============")
-bosshp = 10000 + monsterLevel*30
-bossatt = 50 + monsterLevel * 8
-bossdef = 50
+bosshp =99999999999999999999 + monsterLevel*9999999999999
+bossatt =99999999999999999999999999999999 + monsterLevel * 999999999999999
+bossdef = 999999999999
 
 while bosshp >= 0 and hp >= 0:
     hp = hp - bossatt
