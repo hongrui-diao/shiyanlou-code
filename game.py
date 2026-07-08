@@ -9,7 +9,7 @@ print('''
  {~  ~  ~   ~.'           '. ~    ~    }
 {  ~   ~  ~ /   /\     /\   \   ~    ~  }
 {   ~   ~  /    __     __    \ ~   ~    }
- {   ~  /\/  -<( o)   ( o)>-  \/\ ~   ~}
+ {   ~  /\/  -<(❤️ )   (❤️ )>-  \/\ ~   ~}
   { ~   ;(      \/ .-. \/      );   ~ }
    { ~ ~\_  ()  ^ (   ) ^  ()  _/ ~  }
     '-._~ \   (`-._'-'_.-')   / ~_.-'
@@ -53,9 +53,9 @@ if job == "b" or job == "B":
         
 print('You Level is 是{},Attack{},Hp{},Defence{}' .format(level, att, hp,defend))
 print("=========== Fight began ==============")
-bosshp =99999999999999999999 + monsterLevel*9999999999999
-bossatt =99999999999999999999999999999999 + monsterLevel * 999999999999999
-bossdef = 999999999999
+bosshp =1000000 + monsterLevel*1000
+bossatt =1000 + monsterLevel * 1000
+bossdef = 100000
 
 while bosshp >= 0 and hp >= 0:
     hp = hp - bossatt
@@ -71,34 +71,34 @@ while bosshp >= 0 and hp >= 0:
     if bosshp <= 0:
         print("You Win!And Got a sword!")
         print('''
-           ,
-          / \\
-         {   }
-         !   !
-         ; : ;
-         | : |
-         | : |
+            ,
+           / \\
+          {   }
+          !   !
+           ; : ;
+           | : |
+          | : |
          l ; l
          l ; l
-         I ; I
-         I ; I
-         I ; I
-         I ; I
-         d | b 
-         H | H
-         H | H
-         H I H
- ,;,     H I H     ,;,
-;H@H;    ;_H_;,   ;H@H;
-`\Y/d_,;|4H@HK|;,_b\Y/'
- '\;MMMMM$@@@$MMMMM;/'
-   ~~~*; !8@8!; *~~~
-         ;888;
-         ;888;
-         ;888;
-         ;888;
-         d8@8b
-         O8@8O
-         T808T
+           I ; I
+            I ; I
+           I ; I
+          I ; I
+          d | b 
+          H | H
+          H | H
+          H I H
+   ,;,    H I H     ,;,
+  ;H@H;  ,;_H_;,  ;H@H;
+ `\Y/d_,;|4H@HK|;,_b\Y/'
+   '\;MMMMM$@@@$MMMMM;/'
+    ~~~*; !❤️ @❤️ !; *~~~
+          ;❤️ \33[31m❤️ \33[0m❤️ ;
+         ;❤️ ❤️ ❤️ ;
+         ;❤️ ❤️ ❤️ ;
+          ;❤️ ❤️ ❤️ ;
+          d❤️ @❤️ b
+         O❤️ @❤️ O
+       T❤️ 0❤️ T
           `~` 
 ''')
